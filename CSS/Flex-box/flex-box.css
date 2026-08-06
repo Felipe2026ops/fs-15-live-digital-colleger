@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+.new-price {
+    font-weight: bold;
+}
+
+.menu {
+    background-color: white;
+    width: 1200px;
+    margin: 0 auto 0 auto;
+
+    padding: 16px 26px 16px 26px;
+    display: flex;
+    gap: 50px;
+    align-items: center; /*linha os itens ao centro horizontal*/
+    justify-content: space-between;
+}
+
+
+.menu .menu-left {
+    display: flex;
+    gap: 50px;
+    align-items: center; /*linha os itens ao centro horizontal*/
+}
+.menu .menu-right {
+    display: flex;
+    gap: 50px;
+    align-items: center; /*linha os itens ao centro horizontal*/
+}
+
+.menu nav {
+    display: flex;
+    text-decoration: none;
+    gap: 50px;
+}
+
+.menu nav a {
+color: black;
+text-decoration: none;
+font-family: "lucida sans";
+}
+
+.menu button {
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 12px 24px 17px 24px;
+    background-color: white;
+    cursor: pointer;
+}
+
+main .most-viewd{
+    width: 120px;
+    margin: 0 auto 0 auto;
+    background-color: blue;
+
+}
+
+main .most-viewd .cards-most-viewd { 
+    margin: 10x 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+main .most-viewd .cards-most-viewd .product-card {
+    background-color: rgb(98, 0, 255);
+    width: 200px;
+}
+main .most-viewd .cards-most-viewd .product-img .product-img {
+     padding: 0 4px 0 4px;
+    background-color: aqua;
+}
+
+main .most-viewd .cards-most-viewd .product-img .product-img img {
+    width: 100%;
+    background-color: rgb(0, 47, 255);  
+
+}
+main .most-viewd .cards-most-viewd .product-card .product-brand {
+   margin: 10x 0 0 0;
+   font-weight: ; 
+}
+.ad-cupons {
+    display: flex;
+    width: 100px;
+    width: 0 auto 0 auto;
+    justify-content: space-between;
+    border: saddlebrown 4px;
+border-radius: 10px;
+}
+.ad-cupons left{
+    font-size: 30px;
+}
+.ad-cupons -left{
+    padding: 30px;
+    background-color: black;
+    width: 30%;
+}.ad-cupons -right{
+    padding: 30px;
+    background-color: black;
+    width: 30%;
+}
+
