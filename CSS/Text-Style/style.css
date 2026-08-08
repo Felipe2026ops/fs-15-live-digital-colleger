@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(50, 50, 50);
+}
+
+button {
+    cursor: pointer;
+}
+
+header
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: salid 1px rgb(245, 225, 225);
+    padding: 6px 6px;
+}
+
+header.menu a {
+    text-decoration: none;
+    padding: 4px 8px;
+} 
+header .menu a:hover {
+    background-color: rgb(42, 42, 199);
+    color: white;
+    width: 800px;
+}
+
+.profile .main
+ {
+    font-size: 10px;
+}
+
+main {
+    width: 300px;
+    margin: 0 auto;
+}
+
+main h2 {
+    text-align: center;
+    margin: 0px 0 20px 0;
+}
+
+main form {
+    width: 250px;
+    margin: 0 auto;
+}
+
+main form .tesk 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+main form .tesk button 
+{
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: (rgb(17, 88, 150));
+    color: white;
+}
+
+main form .tesk button:hover
+{
+    background-color: rgb(24, 94, 241);
+}
+
+main form .tesk input {
+    border: none;
+    background-color: rgb(241, 241, 241);
+    border-radius: 2px;
+    padding: 0 5px;   
+}
+
+main form .tes input:focus 
+{
+    border: none;
+    outline: none;
+}
+main .tesk {
+    background-color: red;
+    width: 250px;
+    margin: 0 auto;
+}
+main .tesk {
+    background-color: red;
+    width: 250px;
+    margin: 10 0 auto 0 auto;
+}
+
+main.tesk.tesk-iten 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3px 0;
+}
+
+main .tesk . tesk-item:hover 
+{
+background-color: antiquewhite;
+}
+main.tesk-item .actions .check 
+{
+    background-color: aqua;
+}
+main.tesk.tesk-iten .actions .delete 
+{
+background-color: rgb(16, 110, 12);
+}
+main.tesk.tesk-iten .actions  
+{
+    border: none;
+    background-color: rgb(71,71,255);
+    cursor: pointer;
+    border-radius: 2px;
+}
+main.tesk.tesk-iten .actions  
+{
+    border: none;
+    background-color: rgb(255, 71, 172);
+    border-radius: 2px;
+}
+main.tesk.tesk-item .content p:
+ {
+
+}
